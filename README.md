@@ -34,8 +34,6 @@ The application ensures that the generated passwords meet the user's criteria an
 
 ## Credits
 
-This project is created by [Your Name].
+This project is created by Zainab2k.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
