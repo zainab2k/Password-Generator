@@ -1,0 +1,97 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0;
+  color: #00bfff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #ff0099, #00bfff, #ffff66);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+.options {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight:600;
+  letter-spacing: 1px;
+  background: linear-gradient(45deg, #ff0099, #00bfff, #ffff66);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #555555;
+  color: #00bfff;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #ff0099, #00bfff, #ffff66);
+  background-size: 200% 200%;
+  color: #000000;letter-spacing: 1px;
+
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-position 0.5s;
+}
+
+button:hover {
+  background-position: right;
+}
+
+button:focus {
+  outline: none;
+}
+
+#password {
+  margin-top: 20px;
+  background-color: #555555;
+  color: #00bfff;
+  cursor: text;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
